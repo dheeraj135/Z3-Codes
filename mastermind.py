@@ -71,7 +71,7 @@ class mastermind:
             # svg_element.find_element_by_tag_name('circle').click()
         self.check_button.click()
         rw = table.find_elements_by_tag_name('td')
-        print("Hello")
+
         try:
             data = self.browser.find_element_by_class_name('modal-title').text
             print(data)
